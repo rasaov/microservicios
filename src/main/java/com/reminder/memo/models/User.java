@@ -45,9 +45,8 @@ public class User {
     )
     private List<Match> matches;
 
-    public User(Long id, String username, String email, String name, String lastnames, String password,
+    public User(String username, String email, String name, String lastnames, String password,
             String repPassword, Integer age, String photo, Boolean enabled, String role) {
-        this.id = id;
         this.username = username;
         this.email = email;
         this.name = name;
